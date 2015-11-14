@@ -6,12 +6,15 @@ $(document).ready(function() {
 
     e.preventDefault(); //___prevents page refresh
 
+  
 
     var list = $(".list").val(); //___captures form data
+
     $(".list").val(""); //___empties text box
 
 
-    $("ul").append("<li>" + list + "<button>Remove</button>" + "</li>"); //__adds list item and button to page
+    $("ul").append("<li>" + "<input id='check" +  "' type='checkbox' value='" +  "' />" + list + "<button>Remove</button>" + "</li>"); //__adds list item and button to page
+
 
 
     $("button").on("click", function () {
