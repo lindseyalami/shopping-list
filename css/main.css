@@ -1,5 +1,96 @@
 
 
+.container {
+  display: block;
+  width: 300px;
+  background: #eee;
+  padding: 20px;
+  margin: 100px auto;
+  font-family: sans-serif;
+  color: #333;
+}
+
+h1{
+	text-align: center;
+	color: #333;
+  	border-bottom: 2px;
+}
+
+form{
+	display: inline-block;
+	text-align: center;
+}
+
+
+ul{
+	list-style:none;
+    padding:0; 
+    margin:0;
+}
+
+li {
+  padding:5px 0;
+}
+
+input, button {
+  outline: none;
+}
+
+input[type="checkbox"] {
+  margin: 5px;
+
+}
+
+input[type="submit"] {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  margin: 5px 0 0;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  margin: 10px 0 0;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #333;
+}
+
+input[type="text"] {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: sans-serif;
+  color: #888;
+}
+
+
+.completed {
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
 
 
 
